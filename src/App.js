@@ -1,25 +1,23 @@
-import logo from "./logo.svg";
-import "./App.css";
+/* import { BrowserRouter,Routes, Route} from "react-router-dom";
+import Header from "../src/components/header/Header";
+import Banner from "../src/components/banner/Banner";
+import Gallery from "./components/gallery/Gallery";
+import data from '../src/Data/data.json';
+import Footer from "./components/footer/Footer";
+import ProductDetails from "../src/Pages/productPage/ProductPage";
+import Error from "./Pages/error/Error";
+import About from "./Pages/about/About";
+import source from "./assets/source.png";*/
+
+import Header from './components/header/header'
+//import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
