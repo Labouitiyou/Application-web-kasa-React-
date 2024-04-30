@@ -1,7 +1,7 @@
 import "../banner/banner.css";
-import img from "../../assets/Img_Banner.png";
 
-const Banner = () => {
+
+const Banner = (img) => {
 
   return (
     <div className="wrapperBanner">
