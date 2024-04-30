@@ -9,15 +9,22 @@ import Error from "./Pages/error/Error";
 import About from "./Pages/about/About";
 import source from "./assets/source.png";*/
 
+import { BrowserRouter } from 'react-router-dom'
+import Banner from './components/banner/banner'
+import Footer from './components/footer/footer'
 import Header from './components/header/header'
-//import './App.css'
-
+import Gallery from './components/gallery/gallery'
+import data from './data.json'
 function App() {
   return (
     <div>
-      <Header />
+      <BrowserRouter>
+        <Header />
+        <Banner />
+        <Gallery data={data} />
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }
-
 export default App

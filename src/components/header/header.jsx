@@ -1,6 +1,6 @@
 import "../header/header.css";
 import logo from "../../assets/LOGO.png";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <nav>
           <ul>
-           <li>Accueil</li>
+          <li><Link to="/">Accueil</Link></li>
            <li>A Propos</li>
           </ul>
         </nav>
@@ -19,5 +19,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

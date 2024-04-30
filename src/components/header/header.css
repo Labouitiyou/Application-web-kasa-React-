@@ -28,7 +28,9 @@
   list-style: none;
 }
 .wrapperHeaders .headers ul li {
-  margin-left: 20px;
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight: 500;
 }
 .wrapperHeaders .headers ul li:hover {
   text-decoration: underline;
