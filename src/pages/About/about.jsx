@@ -1,4 +1,4 @@
-import "../About/about.css"
+import "./About.css"
 import  imgbanner2 from "../../assets/ImgBanner2.png";
 import Banner from "../../components/banner/banner"; 
 import Collapse from "../../components/collapse/Collapse";
