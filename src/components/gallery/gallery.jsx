@@ -7,9 +7,8 @@ function Gallery({data}) {
         <div className="cardContainer">
             {data.map((details, index) => (
                 <Card details={details} 
-                      index={index}
-                 />
-             
+                      index={index} key={`card-${index}`}
+                 /> 
             ))}
         </div>
     );    

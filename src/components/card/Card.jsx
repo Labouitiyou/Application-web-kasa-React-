@@ -9,7 +9,7 @@ function Card({details, index}) {
         <Link to={`/product/${details.id}`} key={`gallery-${index}`}>
             <div className="card">
                 <p className="pGallery">{details.title}</p>  
-                <img className="imgGallery" src={details.cover} alt={details.title}/> 
+                <img className="imgGallery" src={details.cover} alt={details.title} /> 
             </div>
         </Link>
     
