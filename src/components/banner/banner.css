@@ -30,12 +30,6 @@
   font-size: 48px;
 }
 .wrapperBanner .titleBannermobile {
-  position: relative;
-  bottom: 140px;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  font-size: 48px;
   display: none;
 }
 .wrapperBanner .bgOpacity {
@@ -46,4 +40,33 @@
   height: 223px;
   opacity: 0.5;
   border-radius: 25px;
+}
+@media (max-width: 1200px) {
+  .wrapperBanner .titleBanner {
+    font-size: 36px;
+    width: 80%;
+  }
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .wrapperBanner .titleBanner {
+    font-size: 24px;
+  }
+  .wrapperBanner .imgBanner,
+  .wrapperBanner .bgOpacity {
+    height: 178px;
+  }
+  .wrapperBanner .bgOpacity {
+    position: absolute;
+    top: 95px;
+  }
+  .wrapperBanner .titleBanner {
+    display: none;
+  }
+  .wrapperBanner .titleBannermobile {
+    display: inline;
+    color: #fff;
+    position: absolute;
+    left: 80px;
+  }
 }

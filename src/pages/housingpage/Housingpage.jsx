@@ -36,9 +36,7 @@ if (!product) {
                     //si non ajoute une étoile grise
                     stars.push(<img src={StarGray} className="starGray" key={i} alt='étoile_grise' />);
                 }
-            }
-    
-            
+            }  
         return stars;
     };
 

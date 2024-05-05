@@ -30,7 +30,8 @@
 }
 
 @media (max-width: 1068px) {
-  .imgGallery {
-    height: 250px;
+  .card {
+    margin: auto;
+    width: 100%;
   }
 }

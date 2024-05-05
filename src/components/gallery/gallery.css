@@ -17,12 +17,10 @@
 
 @media (max-width: 1068px) {
   .cardContainer {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 768px) {
-  .cardContainer {
-    width: 90%;
     grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    background: white;
+    margin-top: 30px;
+    gap: 30px;
   }
 }
