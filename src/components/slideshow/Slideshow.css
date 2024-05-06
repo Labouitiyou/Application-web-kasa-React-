@@ -16,7 +16,7 @@
 }
 .carouselWrapper .arrow {
   position: absolute;
-  bottom: 58%;
+  bottom: 45%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -30,6 +30,6 @@
   align-items: center;
   color: #fff;
   position: absolute;
-  top: 50%;
+  bottom: 28%;
   left: 50%;
 }

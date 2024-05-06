@@ -17,7 +17,7 @@
   color: #fff;
 }
 .wrapperFooter .logoFooter {
-  margin: 20px 0 75px 0;
+  margin: 20px 0 50px 0;
 }
 
 /*tablette*/
@@ -26,5 +26,8 @@
   .pFooter {
     width: 150px;
     text-align: center;
+  }
+  .wrapperFooter .logoFooter {
+    margin-bottom: 10px;
   }
 }
