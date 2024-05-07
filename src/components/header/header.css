@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -51,5 +50,9 @@ a {
   .wrapperHeaders .headers .logo {
     width: 140px;
     height: 50px;
+  }
+  .wrapperHeaders .headers ul li {
+    font-size: 12px;
+    margin-left: 25px;
   }
 }

@@ -7,7 +7,7 @@ const Banner = (props) => {
         <div className="bgOpacity" style={{ opacity: props.opacity }}></div>
         <img className="imgBanner" src={props.img} alt="banner"/>
         <h1 className="titleBanner" style={{ display: props.display }}>Chez vous, partout et ailleurs </h1>
-        <h1 className="titleBannermobile">Chez vous,<br></br> partout et ailleurs </h1>
+        <h1 className="titleBannermobile"  style={{ display: props.display }}>Chez vous,<br></br> partout et ailleurs </h1>
 
 
     </div>
