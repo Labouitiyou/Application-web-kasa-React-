@@ -41,16 +41,16 @@ function Slideshow(prop) {
             <div className="imageContainer">
                 {/*vérifier si le nombre total d'image est supérieur à 1*/}
                 {imgNumber > 1 &&(
-                    <>
-                <img className="arrow left" src={arrowLeft} alt="Previous" onClick={goToPreviousSlide} />
-                <img className="imgCarousel" src={product.pictures[currentImageIndex]} alt={product.title} />
-                <img className="arrow right" src={arrowRight} alt="Next" onClick={goToNextSlide} />
-                <span className="numberImg">{currentImageIndex +1} / {imgNumber}</span>
+                <>
+                 <img className="arrow left" src={arrowLeft} alt="Previous" onClick={goToPreviousSlide} />
+                 <img className="imgCarousel" src={product.pictures[currentImageIndex]} alt={product.title} />
+                 <img className="arrow right" src={arrowRight} alt="Next" onClick={goToNextSlide} />
+                 <span className="numberImg">{currentImageIndex +1} / {imgNumber}</span>
                 </>
             )}
-                            {/*vérifier si le nombre total d'image est égal à 1*/}
-            {imgNumber === 1 && (<img className="imgCarousel" src={product.pictures[currentImageIndex]} alt={product.title} />)}
-                </div>
+               {/*vérifier si le nombre total d'image est égal à 1*/}
+               {imgNumber === 1 && (<img className="imgCarousel" src={product.pictures[currentImageIndex]} alt={product.title} />)}
+            </div>
         </div>
     );
 }
