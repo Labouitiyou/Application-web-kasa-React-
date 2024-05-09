@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
+.carouselWrapper .imageContainer {
+  position: relative;
+}
 .carouselWrapper .imgCarousel {
   -o-object-fit: cover;
   object-fit: cover;
@@ -13,22 +15,37 @@
   margin-bottom: 20px;
   border-radius: 25px;
 }
-.carouselWrapper .arrow {
+.imageContainer .arrow {
   position: absolute;
-  bottom: 45%;
+  bottom: 35%;
   transform: translateY(-50%);
   cursor: pointer;
+  width: 46px;
+  height: 79px;
 }
 .carouselWrapper .left {
-  left: 13%;
+  left: 2%;
 }
 .carouselWrapper .right {
-  right: 13%;
+  right: 2%;
 }
 .carouselWrapper .numberImg {
   align-items: center;
   color: #fff;
   position: absolute;
-  bottom: 28%;
+  bottom: 10%;
   left: 50%;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .carouselWrapper .imgCarousel {
+    height: 255px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .carouselWrapper .arrow {
+    bottom: 40%;
+    width: 24px;
+    height: 24px;
+  }
 }

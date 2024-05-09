@@ -1,5 +1,7 @@
 .contentText {
   margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .aboutArrow {
@@ -8,4 +10,13 @@
 
 .rotate {
   transform: rotate(180deg);
+}
+ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .contentText {
+    font-size: 12px;
+  }
 }

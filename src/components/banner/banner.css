@@ -54,6 +54,7 @@
   .wrapperBanner .imgBanner,
   .wrapperBanner .bgOpacity {
     height: 178px;
+    width: 90%;
   }
   .wrapperBanner .bgOpacity {
     position: absolute;
