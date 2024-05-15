@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Labouitiyou/Application-web-kasa-React-.git/static/css/main.3e92b6b6.css",
+    "main.js": "/Labouitiyou/Application-web-kasa-React-.git/static/js/main.62b4b351.js",
+    "static/media/ImgBanner2.png": "/Labouitiyou/Application-web-kasa-React-.git/static/media/ImgBanner2.abab3f12f4cb82f1dfa1.png",
+    "static/media/Img_Banner.png": "/Labouitiyou/Application-web-kasa-React-.git/static/media/Img_Banner.d00ae7dd3ef927bb988d.png",
+    "index.html": "/Labouitiyou/Application-web-kasa-React-.git/index.html",
+    "static/media/star.svg": "/Labouitiyou/Application-web-kasa-React-.git/static/media/star.dcbcaade01c7b4e66efc1b8d8ccc2287.svg",
+    "static/media/starGray.svg": "/Labouitiyou/Application-web-kasa-React-.git/static/media/starGray.1ce207b809ecd68ac602755fabfc277b.svg",
+    "main.3e92b6b6.css.map": "/Labouitiyou/Application-web-kasa-React-.git/static/css/main.3e92b6b6.css.map",
+    "main.62b4b351.js.map": "/Labouitiyou/Application-web-kasa-React-.git/static/js/main.62b4b351.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e92b6b6.css",
+    "static/js/main.62b4b351.js"
+  ]
+}
